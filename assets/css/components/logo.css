@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.logo h3 {
+  font-size: 2.5rem;
+  color: #e8e9eb;
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #f06543;
+  align-self: flex-end;
+  text-transform: capitalize;
+}

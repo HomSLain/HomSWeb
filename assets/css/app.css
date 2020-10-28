@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow&display=swap");
+@import url("components/hamburger.css");
+@import url("components/logo.css");
+@import url("components/nav.css");
+@import url("components/main.css");
+@import url("components/hamburger.css");
+@import url("components/home.css");
+@import url("components/tools.css");
+@import url("components/projects.css");
+@import url("components/footer.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tomorrow", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(68, 69, 69, 0.2);
+  background-image: linear-gradient(135deg, #656767 0%, #444545 74%);
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+  transition: 0.5s ease;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f06543;
+  background: linear-gradient(
+    337deg,
+    rgba(195, 78, 49, 1) 0%,
+    rgba(240, 101, 67, 1) 35%,
+    rgba(255, 175, 63, 1) 100%
+  );
+  border-radius: 4px;
+  z-index: 99;
+}
+
+.colorsl {
+  color: #f06543;
+  color: #e8e9eb;
+  color: #e0dfd5;
+  color: #313638;
+  color: #f09d51;
+}

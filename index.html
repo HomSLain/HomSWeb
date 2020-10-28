@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomS Dev</title>
+    <link rel="icon" href="assets/img/icons/Favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar Section -->
+      <nav class="navbar">
+        <div class="logo">
+          <h3>HomS</h3>
+          <span>dev </span>
+        </div>
+        <div class="menu">
+          <ul id="links" class="links">
+            <li><a id="Home" class="disabled" href="">Home</a></li>
+            <li><a id="Tools" class="disabled" href="">Skills & Tools</a></li>
+            <li><a id="Projects" class="disabled" href="">My Projects</a></li>
+            <li><a id="About" class="disabled" href="">About</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </nav>
+      <!-- End Navbar Section -->
+
+      <!-- content -->
+      <div class="main-container">
+        <div id="home_container" class="main">
+          <h3 class="title">
+            Everyone calls me HomS and I develop web applications.
+          </h3>
+          <div id="particles-js" class="particles"></div>
+        </div>
+
+        <div id="projects_container" class="hidden">
+          <div class="slider">
+            <!-- back button -->
+            <button id="back" class="slider-back">
+              <i class="fas fa-3x fa-chevron-circle-left"></i>
+            </button>
+
+            <!-- ChiHo CRM -->
+            <div class="projects-content">
+              <div class="project-title">
+                <h2>ChiHo Client Managment</h2>
+                <a href="https://testcrmproject.herokuapp.com/"
+                  ><i class="fas fa-2x fa-external-link-alt"></i
+                ></a>
+              </div>
+              <div class="project-image">
+                <img src="assets/img/projects/Chiho.png" alt="" />
+              </div>
+              <div class="project-description">
+                <p>
+                  <span>ChiHo</span> CRM is a web application focused on help
+                  mexican PyMEs with the managment of their clients. It is built
+                  in the backend side with <span>NodeJs</span> and
+                  <span>MySQL</span> as a database gestor and simply
+                  <span>HTML</span>, <span>javascript</span> and
+                  <span>CSS</span> on the frontend.
+                </p>
+              </div>
+              <div class="project-samples"></div>
+            </div>
+
+            <!-- anime db -->
+            <div class="projects-content hidden">
+              <div class="project-title">
+                <h2>Anime Db</h2>
+                <a href="https://anime-db-homs.web.app/main"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+              <div class="project-image">
+                <img src="assets/img/projects/AnimeDb.png" alt="" />
+              </div>
+              <div class="project-description">
+                <p>
+                  <span>AnimeDb</span> is a personal API project it works as a
+                  information gestor about anime series, it is built using
+                  <span>NodeJs</span> with <span>TypeScript</span> in the
+                  backend side, and only <span>Angular</span> in the frontend
+                  side
+                </p>
+              </div>
+              <div class="project-samples"></div>
+            </div>
+
+            <!-- next button -->
+            <button id="next" class="slider-next">
+              <i class="fas fa-3x fa-chevron-circle-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div id="tools_container" class="hidden">
+          <h3 class="tools-title">Skills & Tools</h3>
+          <div class="tools">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/tools/html.png" alt="" />
+              </div>
+              <div class="card-title">
+                <h2>HTML:</h2>
+              </div>
+              <div class="points">
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <span>Intermediate</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/tools/css.png" alt="" />
+              </div>
+              <div class="card-title">
+                <h2>CSS:</h2>
+              </div>
+              <div class="points">
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <span>Intermediate</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/tools/js.png" alt="" />
+              </div>
+              <div class="card-title">
+                <h2>Javascript:</h2>
+              </div>
+              <div class="points">
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <span>Intermediate</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/tools/node.png" alt="" />
+              </div>
+              <div class="card-title">
+                <h2>NodeJs:</h2>
+              </div>
+              <div class="points">
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <span>Intermediate</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/tools/mysql.png" alt="" />
+              </div>
+              <div class="card-title">
+                <h2>Mysql:</h2>
+              </div>
+              <div class="points">
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <span>Intermediate</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/tools/angular.png" alt="" />
+              </div>
+              <div class="card-title">
+                <h2>Angular:</h2>
+              </div>
+              <div class="points">
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <span>Beginner</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/tools/git.png" alt="" />
+              </div>
+              <div class="card-title">
+                <h2>Git:</h2>
+              </div>
+              <div class="points">
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <i class="fab fa-galactic-republic fa-2x shade"></i>
+                <span>Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="about_container" class="hidden">
+          <div class="content">
+            <div class="about-header">
+              <h1>About Me</h1>
+              <span
+                >"laborum Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit"
+              </span>
+            </div>
+            <div class="about-img">
+              <img src="assets/img/About/code.jpg" alt="code" />
+            </div>
+
+            <p>
+              My name is Omar. Everyone calls me HomS was born and raised in
+              Mexico, since i was a child i felt in love with computers and
+              tecnology. Now I´m a recent graduate of Instituto Politécnico
+              Nacional and I´m passionate about creating meaningful work that
+              makes our lives better, looking to grow and gain experience in the
+              world of development.
+            </p>
+            <div class="about-social">
+              <h2>Social</h2>
+            </div>
+            <div class="social-links">
+              <a href="https://linkedin.com/in/omar-briseño-ramirez-2316701ba">
+                <img src="assets/img/icons/linkedin.png" alt="" />
+              </a>
+              <a href="https://wa.link/8cyr1c"
+                ><img src="assets/img/icons/whatsapp.png" alt=""
+              /></a>
+              <a href="mailto:homs_lainar@protonmail.com"
+                ><img src="assets/img/icons/gmail.png" alt=""
+              /></a>
+              <a href=""><img src="assets/img/icons/facebook.png" alt="" /></a>
+              <a href=""><img src="assets/img/icons/youtube.png" alt="" /></a>
+            </div>
+          </div>
+          <div id="particles-about" class="particles"></div>
+        </div>
+
+        <!-- Adress section -->
+      </div>
+
+      <div class="shadow one"></div>
+      <div class="shadow two"></div>
+    </div>
+
+    <!-- end content -->
+
+    <script src="assets/js/particles/particles.min.js"></script>
+    <script src="assets/js/app.js" type="module"></script>
+  </body>
+</html>

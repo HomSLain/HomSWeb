@@ -1,0 +1,59 @@
+.hamburger-menu {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bar {
+  width: 4rem;
+  height: 0.4rem;
+  border-radius: 5px;
+  background-color: #f06543;
+  transition: 0.5s ease;
+}
+
+.hamburger-menu:hover .bar::after {
+  transform: translateY(0.9rem);
+}
+
+.hamburger-menu:hover .bar::before {
+  transform: translateY(-0.9rem);
+}
+
+.bar::after,
+.bar::before {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  transition: 0.5s ease;
+}
+
+.bar::after {
+  background-color: #f06543;
+  transform: translateY(0.7rem);
+}
+
+.bar::before {
+  background-color: #f06543;
+  transform: translateY(-0.7rem);
+}
+
+.container.active .bar {
+  transform: rotate(360deg);
+  background-color: transparent;
+}
+
+.container.active .bar::before {
+  transform: rotate(45deg);
+}
+
+.container.active .bar::after {
+  transform: rotate(-45deg);
+}
